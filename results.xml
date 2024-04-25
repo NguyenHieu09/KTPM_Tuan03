@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<JDepend>
+    <Packages>
+
+        <Package name="com.fasterxml.jackson.annotation">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.fasterxml.jackson.databind.annotation">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="com.fasterxml.jackson.datatype.jsr310.ser">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="jakarta.persistence">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="jakarta.servlet.http">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.io">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.lang.invoke">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.time">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="java.util.stream">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="net.datafaker">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="net.datafaker.providers.base">
+            <error>No stats available: package referenced, but not analyzed.</error>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>8</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="WwwWeek07NguyenThiTrungHieu20020381Application.java">
+                    vn.edu.iuh.fit.WwwWeek07NguyenThiTrungHieu20020381Application
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.lang.invoke</Package>
+                <Package>java.time</Package>
+                <Package>net.datafaker</Package>
+                <Package>net.datafaker.providers.base</Package>
+                <Package>vn.edu.iuh.fit.backend.enums</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+                <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.backend.enums">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>3</Ca>
+                <Ce>1</Ce>
+                <A>0</A>
+                <I>0.25</I>
+                <D>0.75</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="EmployeeStatus.java">
+                    vn.edu.iuh.fit.backend.enums.EmployeeStatus
+                </Class>
+                <Class sourceFile="ProductStatus.java">
+                    vn.edu.iuh.fit.backend.enums.ProductStatus
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>vn.edu.iuh.fit</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+                <Package>vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.backend.models">
+            <Stats>
+                <TotalClasses>9</TotalClasses>
+                <ConcreteClasses>9</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>6</Ca>
+                <Ce>11</Ce>
+                <A>0</A>
+                <I>0.65</I>
+                <D>0.35</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="CartItem.java">
+                    vn.edu.iuh.fit.backend.models.CartItem
+                </Class>
+                <Class sourceFile="Customer.java">
+                    vn.edu.iuh.fit.backend.models.Customer
+                </Class>
+                <Class sourceFile="Employee.java">
+                    vn.edu.iuh.fit.backend.models.Employee
+                </Class>
+                <Class sourceFile="Order.java">
+                    vn.edu.iuh.fit.backend.models.Order
+                </Class>
+                <Class sourceFile="OrderDetail.java">
+                    vn.edu.iuh.fit.backend.models.OrderDetail
+                </Class>
+                <Class sourceFile="Product.java">
+                    vn.edu.iuh.fit.backend.models.Product
+                </Class>
+                <Class sourceFile="ProductDetail.java">
+                    vn.edu.iuh.fit.backend.models.ProductDetail
+                </Class>
+                <Class sourceFile="ProductImage.java">
+                    vn.edu.iuh.fit.backend.models.ProductImage
+                </Class>
+                <Class sourceFile="ProductPrice.java">
+                    vn.edu.iuh.fit.backend.models.ProductPrice
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>com.fasterxml.jackson.annotation</Package>
+                <Package>com.fasterxml.jackson.databind.annotation</Package>
+                <Package>com.fasterxml.jackson.datatype.jsr310.ser</Package>
+                <Package>jakarta.persistence</Package>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.invoke</Package>
+                <Package>java.time</Package>
+                <Package>java.util</Package>
+                <Package>vn.edu.iuh.fit.backend.enums</Package>
+                <Package>vn.edu.iuh.fit.backend.pks</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>vn.edu.iuh.fit</Package>
+                <Package>vn.edu.iuh.fit.backend.pks</Package>
+                <Package>vn.edu.iuh.fit.backend.repositories</Package>
+                <Package>vn.edu.iuh.fit.backend.services</Package>
+                <Package>vn.edu.iuh.fit.frontend.controllers</Package>
+                <Package>vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.backend.pks">
+            <Stats>
+                <TotalClasses>2</TotalClasses>
+                <ConcreteClasses>2</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>4</Ce>
+                <A>0</A>
+                <I>0.8</I>
+                <D>0.2</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="OrderDetailPK.java">
+                    vn.edu.iuh.fit.backend.pks.OrderDetailPK
+                </Class>
+                <Class sourceFile="ProductPricePK.java">
+                    vn.edu.iuh.fit.backend.pks.ProductPricePK
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.io</Package>
+                <Package>java.lang</Package>
+                <Package>java.time</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.backend.repositories">
+            <Stats>
+                <TotalClasses>7</TotalClasses>
+                <ConcreteClasses>0</ConcreteClasses>
+                <AbstractClasses>7</AbstractClasses>
+                <Ca>4</Ca>
+                <Ce>3</Ce>
+                <A>1</A>
+                <I>0.43</I>
+                <D>0.43</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+                <Class sourceFile="CustomerRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.CustomerRepository
+                </Class>
+                <Class sourceFile="EmployeeRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.EmployeeRepository
+                </Class>
+                <Class sourceFile="OrderDetailRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.OrderDetailRepository
+                </Class>
+                <Class sourceFile="OrderRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.OrderRepository
+                </Class>
+                <Class sourceFile="ProductImageRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.ProductImageRepository
+                </Class>
+                <Class sourceFile="ProductPriceRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.ProductPriceRepository
+                </Class>
+                <Class sourceFile="ProductRepository.java">
+                    vn.edu.iuh.fit.backend.repositories.ProductRepository
+                </Class>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.util</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>vn.edu.iuh.fit</Package>
+                <Package>vn.edu.iuh.fit.backend.services</Package>
+                <Package>vn.edu.iuh.fit.frontend.controllers</Package>
+                <Package>vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.backend.services">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>1</Ca>
+                <Ce>5</Ce>
+                <A>0</A>
+                <I>0.83</I>
+                <D>0.17</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ProductServices.java">
+                    vn.edu.iuh.fit.backend.services.ProductServices
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.lang.invoke</Package>
+                <Package>java.util</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+                <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            </DependsUpon>
+
+            <UsedBy>
+                <Package>vn.edu.iuh.fit.frontend.controllers</Package>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.frontend.controllers">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>8</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="ProductController.java">
+                    vn.edu.iuh.fit.frontend.controllers.ProductController
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>jakarta.servlet.http</Package>
+                <Package>java.lang</Package>
+                <Package>java.lang.invoke</Package>
+                <Package>java.util</Package>
+                <Package>java.util.stream</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+                <Package>vn.edu.iuh.fit.backend.repositories</Package>
+                <Package>vn.edu.iuh.fit.backend.services</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+
+        <Package name="vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381">
+            <Stats>
+                <TotalClasses>1</TotalClasses>
+                <ConcreteClasses>1</ConcreteClasses>
+                <AbstractClasses>0</AbstractClasses>
+                <Ca>0</Ca>
+                <Ce>6</Ce>
+                <A>0</A>
+                <I>1</I>
+                <D>0</D>
+                <V>1</V>
+            </Stats>
+
+            <AbstractClasses>
+            </AbstractClasses>
+
+            <ConcreteClasses>
+                <Class sourceFile="WwwWeek07NguyenThiTrungHieu20020381ApplicationTests.java">
+                    vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381.WwwWeek07NguyenThiTrungHieu20020381ApplicationTests
+                </Class>
+            </ConcreteClasses>
+
+            <DependsUpon>
+                <Package>java.lang</Package>
+                <Package>java.time</Package>
+                <Package>java.util</Package>
+                <Package>vn.edu.iuh.fit.backend.enums</Package>
+                <Package>vn.edu.iuh.fit.backend.models</Package>
+                <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            </DependsUpon>
+
+            <UsedBy>
+            </UsedBy>
+        </Package>
+    </Packages>
+
+    <Cycles>
+        <Package Name="vn.edu.iuh.fit">
+            <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.backend.models">
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.backend.pks">
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.backend.repositories">
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.backend.services">
+            <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.frontend.controllers">
+            <Package>vn.edu.iuh.fit.backend.services</Package>
+            <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+        <Package Name="vn.edu.iuh.fit.www_week07_nguyenthitrunghieu_20020381">
+            <Package>vn.edu.iuh.fit.backend.repositories</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+            <Package>vn.edu.iuh.fit.backend.pks</Package>
+            <Package>vn.edu.iuh.fit.backend.models</Package>
+        </Package>
+
+    </Cycles>
+</JDepend>
